@@ -1,21 +1,22 @@
-# Project 3: Spots
+SPOTS -SOCIAL MEDIA WEB APPLICATION
 
-### Overview  
+The goal of this Project was to build an interactive social media web app called "Spots," where users can upload and like photos, and make minor adjustments to their profiles.
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+KEY FEATURES:
+
+RESPONSIVE LAYOUT
+
+The webpage must be responsive, adjusting based on browser width to provide optimal views for desktop, tablet, and mobille devices. For instance, desktop view shows three cards per row, tablet view shows two, and mobile view has one card per row.
+
+DESIGN AND FIGMA
+
+The design comes from Figma, and users will export necessary images (avatars, cards). A clean, structured layout (grid, flexbox) should be followed, 
+
+MEDIA QUERIES AND CSS TECHNIQUES
+
+Media queries will ensure the page adjusts dynamically as the screen size changes.
+Techiques like Grid and Flexbox are used to structure the layout, and overflow handling are important for managing text that exceeds available space.
+
+FONTS AND SYTLES
+
+The projects uses the Poppins font family, and all necessary fallbacks. Custom CSS (normalize.css and font.css) is required to ensure consistent style across browsers.
