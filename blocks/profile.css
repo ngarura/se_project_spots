@@ -8,6 +8,7 @@
   height: 190px;
   width: 190px;
   margin-right: 20px;
+  border-radius: 8px;
 }
 
 .profile__column{
@@ -32,7 +33,7 @@
 .profile__description{
   margin: 0;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 24px;
   color: rgba(33, 33, 33, 0.7);
   text-overflow: ellipsis;
@@ -56,6 +57,9 @@
   margin-left: auto;
   width: 149px;
   height: 52px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
   color: #fff;
   background-color: #212121;
   margin-top: auto;
@@ -80,6 +84,7 @@
 
   .profile__name{
     font-size: 20px;
+    line-height: 20px;
     margin: 0 0 6px;
     max-width: 288px;
   }
