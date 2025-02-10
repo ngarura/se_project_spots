@@ -51,6 +51,9 @@
     font-size: 16px;
     line-height: 16px;
     width: 95px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   .footer{
