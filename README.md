@@ -21,7 +21,11 @@ FONTS AND SYTLES
 
 The projects uses the Poppins font family, and all necessary fallbacks. Custom CSS (normalize.css and font.css) is required to ensure consistent style across browsers.
 
-For more information please take a look in the link below.
+The source code for this project is in the link below.
+
+https://ngarura.github.io/se_project_spots/
+
+For more information about the functionality of the application please take a look in the link below.
 
 
 https://www.loom.com/share/44214f1ecc2f4b33ab60261d23dd7d60?sid=1c76a4b0-d988-47bb-9fd3-6b13ab79794e
