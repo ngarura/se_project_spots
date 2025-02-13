@@ -52,6 +52,9 @@
   justify-content: space-between;
   gap: 8px;
   margin-top: auto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
   color: rgba(33, 33, 33, 1);
   margin-right: auto;
   border-style: none;
