@@ -28,6 +28,16 @@
   border-radius: 8px;
 }
 
+.modal__container_type_preview{
+  padding: 0;
+}
+
+.modal__image{
+  width: 100%;
+  border-radius: 8px;
+
+}
+
 .modal__close-btn{
   position: absolute;
   top: 32px;
@@ -39,6 +49,18 @@
   background-color: #fff;
   opacity: 0.4;
 
+}
+
+.modal__close-btn_preview{
+  top: 0;
+  right: -50px;
+  opacity: 1;
+}
+
+.modal__caption{
+  color: #fff;
+  background-color: black;
+  border-radius: 8px;
 }
 
 .modal__title{
