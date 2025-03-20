@@ -64,12 +64,14 @@
 }
 
 .card__like-button_liked{
-  background-image: url(../images/liked.svg);
+  background-image: url(../images/LikedIcon.svg);
+  background-repeat: no-repeat;
   opacity: 1;
 }
 
 .card__like-button_liked:hover{
-  background-image: url(../images/liked.svg);
+  background-image: url(../images/LikedHover.svg);
+  background-repeat: no-repeat;
   opacity: 0.4;
 }
 
