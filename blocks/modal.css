@@ -24,7 +24,6 @@
   background: #fff;
   padding: 32px 50px;
   max-width: 730px;
-  max-height: 408px;
   position: relative;
   width: 100%;
   box-sizing: border-box;
@@ -32,18 +31,31 @@
 }
 
 .modal__container_type_preview{
+  position: relative;
   padding: 0;
-  background: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  max-width: fit-content;
 }
 
 .modal__image{
+  width: 100%;
   max-width: 80vw;
   max-height: 80vh;
   object-fit: contain;
+  border-radius: 8px;
+  border-style: none;
+}
+
+.modal__caption{
+  position:absolute;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(33, 33, 33, 1);
+  border-radius: 8px;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  opacity: 40%;
 }
 
 .modal__close-btn{
@@ -75,12 +87,6 @@
 }
 .modal__close-btn_preview:hover{
   opacity: 0.4;
-}
-
-.modal__caption{
-  color: #fff;
-  background-color: black;
-  border-radius: 8px;
 }
 
 .modal__title{
