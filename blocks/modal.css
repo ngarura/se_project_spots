@@ -37,11 +37,10 @@
 
 .modal__image{
   width: 100%;
+  object-fit: cover ;
   max-width: 80vw;
   max-height: 80vh;
-  object-fit: contain;
   border-radius: 8px;
-  border-style: none;
 }
 
 .modal__caption{
@@ -201,6 +200,19 @@
     opacity: 0.8;
   }
 
+}
+
+@media screen and (max-width: 320px){
+  .modal{
+    width: 320px;
+  }
+
+  .modal__image{
+    width: 100%;
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 8px;
+  }
 }
 
 
